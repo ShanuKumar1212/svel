@@ -107,7 +107,7 @@ h3{
     text-justify: center;
   }
 }
-/* about */
+/* ................................about............................. */
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -163,10 +163,16 @@ h3{
 html {
   box-sizing: border-box;
 }
+.card img{
+height: 70vh;
+}
 
 @media screen and (max-width: 750px) {
   .column {
     width: 100%;
     display: block;
   }
+  .card img{
+    height: 60vh;
+    }
 }
